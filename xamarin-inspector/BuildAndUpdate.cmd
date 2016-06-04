@@ -9,12 +9,15 @@ MD Release
 
 FOR %%A IN (
 	Microsoft.CodeAnalysis
-	Microsoft.CodeAnalysis.Workspaces
 	Microsoft.CodeAnalysis.Features
+	Microsoft.CodeAnalysis.EditorFeatures
+	Microsoft.CodeAnalysis.EditorFeatures.Text
+	Microsoft.CodeAnalysis.EditorFeatures.Next
+	Microsoft.CodeAnalysis.Workspaces
 	Microsoft.CodeAnalysis.CSharp
 	Microsoft.CodeAnalysis.CSharp.Features
+	Microsoft.CodeAnalysis.CSharp.EditorFeatures
 	Microsoft.CodeAnalysis.CSharp.Workspaces
-	Microsoft.CodeAnalysis.EditorFeatures.Text
 	System.Reflection.Metadata
 	System.Collections.Immutable
 	System.Composition.AttributedModel
